@@ -8,7 +8,7 @@ os.makedirs(download_dir, exist_ok=True)
 # Liste der Programme und URLs
 programs = [
     ("Steam", "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"),
-    #("MusicBee", "https://www.majorgeeks.com/mg/getmirror/musicbee,1.html"), 
+    ("Clementine", "https://github.com/clementine-player/Clementine/releases/download/1.3.1/ClementineSetup-1.3.1.exe"), 
     #("GoG Launcher", "https://webinstallers.gog-statics.com/download/GOG_Galaxy_2.0.exe?payload=-8bP6Kdpiu9_OL-a8XzTrcJ3MazhPDmByCvguC_sREzdzkZAb-r5xK-illUo5txGGcXOJAhjrZvcQsD9POhZcHHe_sRKqftwEgzGZXPX1LEJzOCDLA.."), 
     ("")
 ]
