@@ -9,15 +9,10 @@ os.makedirs(download_dir, exist_ok=True)
 programs = [
     ("VLC Media Player", "https://get.videolan.org/vlc/3.0.20/win64/vlc-3.0.20-win64.exe"),
     ("Notepad++", "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.8/npp.8.4.8.Installer.x64.exe"),
-    #("Firefox Browser", "https://www.heise.de/download/product/firefox-19416/download"),
     ("LibreOffice", "https://de.libreoffice.org/donate/dl/win-x86_64/7.6.7/de/LibreOffice_7.6.7_Win_x86-64.msi"),
-    #("Mozilla Thunderbird", "https://www.heise.de/download/product/thunderbird-18801/download"),
-    ("7-Zip", "https://www.7-zip.org/a/7z2301-x64.exe"),
-    #("WhatsApp", "https://www.heise.de/download/product/whatsapp-desktop-97648/download"),
-    #("Bitwarden", "https://www.heise.de/download/product/bitwarden/download")
+    ("7-Zip", "https://www.7-zip.org/a/7z2301-x64.exe")
 ]
 
-# above links do not work because they do not link directly to an exe file 
 
 # Funktion zum Herunterladen von Dateien
 def download_file(url, destination):
